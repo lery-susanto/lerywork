@@ -1,2 +1,2 @@
 # lerysusanto
-The Future Amman Mineral West Nusa Tenggara
+The Future of Amman Mineral West Nusa Tenggara
