@@ -17,7 +17,7 @@ a {
 }
 
 .container {
-  width: 100%;
+  max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -34,7 +34,7 @@ a {
   opacity: 0.7;
   font-size: 45px;
   letter-spacing: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   margin-left: 160px;
   margin-right: 160px;
   text-shadow: 2px 2px #050000;
@@ -120,31 +120,32 @@ header {
   box-shadow: none;
 }
 
+
 .Iam {
-  padding: 100px 10px 200px 150px;
-  font: normal 40px/50px Montserrat, sans-serif;
-  color: rgb(255, 255, 255);
-}
-.Iam p {
-  height: 7px;
-  float: left;
-  margin-right: 0.3em;
-  font-weight: bold;
-}
-.Iam b {
-  float: left;
-  overflow: hidden;
-  position: relative;
-  height: 50px;
-  top: 40px;
-}
-.Iam .innerIam {
-  display: inline-block;
-  color: rgb(255, 255, 255);
-  position: relative;
-  white-space: nowrap;
-  top: 0;
-  left: 0;
+    padding: 100px 10px 200px 150px;
+    font: normal 40px/50px Montserrat, sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  .Iam p {
+    height: 7px;
+    float: left;
+    margin-right: 0.3em;
+    font-weight: bold;
+  }
+  .Iam b {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    top: 40px;
+  }
+  .Iam .innerIam {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
   
   
   /*animation*/
@@ -344,23 +345,3 @@ fieldset {
 .footer p {
   padding-left: 5px;
 }
-
-.about-wrapper {
-  padding: 100px 100px 20px 100px;
-  background-image: url();
-  background-size: cover;
-  color: white;
-  
-}
-
-.about  {
-  
-  text-align: justify;
-  font-size: inherit;
-  margin: 5px;
-}
-
-.Iam-wrapper {
-  padding: 10px;
-}
- 
